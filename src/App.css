@@ -1,0 +1,52 @@
+:root{
+  /* imageLocations */
+  --hero-image:url("./Assets/images/hero.jpg");
+}
+
+html{
+  overflow-x: hidden;
+  
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+
+
+.hero{
+  background: var(--hero-image);
+  background-size: cover;
+  width:101vw;
+  height:100vh;
+  /* filter: blur(2px) */
+}
+
+.logo{
+  padding:8px;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
